@@ -29,8 +29,8 @@ export function About() {
               }}
             >
               <img
-                src="/src/profile.jpeg.jpeg"
-                alt="Kaligotla Sri Datta Sai Vithal"
+                src="src\Profile photo.png"
+                alt="Akshay Kompally"
                 className="w-full h-auto object-cover"
               />
             </motion.div>
@@ -57,13 +57,20 @@ export function About() {
                 About
               </h2>
               <p style={{ fontFamily: 'var(--font-display)' }} className="text-lg leading-relaxed">
-                I'm Kaligotla Sri Datta Sai Vithal — a CS undergrad specializing in AI & Data Science at Vishnu Institute of Technology, Bhimavaram, graduating in 2027.
+                I'm <strong>Akshay Kompally</strong>, a Computer Science graduate from
+                Guru Nanak Institute of Technology, Hyderabad. I'm passionate about building
+                scalable full-stack applications and AI-powered solutions that solve
+                real-world problems.
               </p>
               <p style={{ fontFamily: 'var(--font-display)' }} className="text-lg leading-relaxed">
-                I build full-stack web apps and GenAI-powered tools — from RAG-based repo analyzers to AI mock interviewers. Most of my projects start with a real problem and end with something I'd actually use.
-              </p>
+                My expertise includes Python, Flask, MySQL, LangChain, LangGraph, and LLM
+                integration. I enjoy developing intelligent applications—from AI-powered
+                career assistants to delivering practical and user-friendly experiences.           </p>
               <p style={{ fontFamily: 'var(--font-display)' }} className="text-lg leading-relaxed">
-                Currently focused on placement, sharpening my DSA, and going deeper into agentic AI workflows. Always open to internships and cool collabs.
+                I'm currently expanding my expertise in Generative AI, Agentic AI, and
+                full-stack development while seeking opportunities as a Software Engineer or
+                AI Engineer. I'm always excited to collaborate on innovative projects and
+                contribute to impactful products. 
               </p>
             </motion.div>
           </div>
@@ -77,9 +84,10 @@ export function About() {
             transition={{ delay: 0.6 }}
           >
             {[
-              { text: "⚡ Hackathon survivor — SIH Internal Round", rotate: -2 },
-              { text: "🛠 Ships side projects for fun", rotate: 1 },
-              { text: "🤝 Open to GenAI + agentic AI collabs", rotate: -1.5 },
+              { text: "🚀 Built AI-Powered Full-Stack Apps", rotate: -2 },
+              { text: "🐍 Python & Flask Developer", rotate: -1.5 },
+              { text: "🧠 LLM & LangGraph Enthusiast", rotate: 2 },
+              { text: "🤝 Open to Software & AI Roles", rotate: -1.5 },
             ].map((chip, index) => (
               <motion.div
                 key={index}

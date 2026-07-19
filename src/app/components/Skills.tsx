@@ -3,12 +3,12 @@ import { useState } from "react";
 
 /* ─── All skills distributed across 3 rows ───────────────── */
 const allSkills = [
-  "Python", "Java", "C", "TypeScript", "Bash",
-  "HTML", "CSS", "JavaScript", "React", "Tailwind", "Vite",
-  "Flask", "Firebase", "Node.js", "REST APIs", "Express",
-  "Pandas", "NumPy", "SQL", "Tableau", "Scikit-learn", "Matplotlib",
+  "Python","GenAI","Generative AI",
+  "HTML5", "CSS3", "JavaScript", "OpenCV",
+  "Flask", "REST APIs", "Langgraph","Agentic AI",
+  "Pandas", "NumPy", "SQL", "MySQL", "Chart.js", "Matplotlib",
   "Gemini API", "RAG", "LangChain", "OpenAI", "Prompt Engineering",
-  "Git", "GitHub", "VS Code", "Render", "Figma", "Postman"
+  "Git", "GitHub", "VS Code", "Netlify", "Postman","Streamlit"
 ];
 
 // Distribute evenly across 3 rows
@@ -23,12 +23,13 @@ const marqueeRows = [
 const tools = [
   { name: "Python",   abbr: "PY", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "Flask",    abbr: "FL", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
-  { name: "React",    abbr: "RE", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { name: "Firebase", abbr: "FB", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+  { name: "JavaScript",    abbr: "JS", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "LangChain", abbr: "LC", img: "https://cdn.simpleicons.org/langchain" },
+  { name: "LangGraph",  abbr: "LG", img: "https://cdn.simpleicons.org/langgraph"},
+  { name: "MYSQL",      abbr: "MY", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
   { name: "Git",      abbr: "GT", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "SQL",      abbr: "SQ", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "Tableau",  abbr: "TB", img: "" },
-  { name: "Node.js",  abbr: "NJ", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+  { name: "GitHub",      abbr: "GH", img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { name: "Postman",  abbr: "PM", img: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"},
 ];
 
 function ToolTile({ tool, index }: { tool: typeof tools[0]; index: number }) {

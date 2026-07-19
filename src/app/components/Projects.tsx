@@ -13,82 +13,112 @@ interface Project {
 
 /* ─── Data ───────────────────────────────────────────────── */
 const featured: Project = {
-  title: "RepoLogic — GitHub Repository Analyzer",
-  tags: ["Python", "Gemini API", "RAG", "Flask"],
-  description:
-    "An AI-powered app that explains public GitHub repos using Retrieval-Augmented Generation. Ask questions in natural language, get file-level code explorations powered by Gemini 2.0 Flash.",
-  url: "https://repologic8.onrender.com/",
-  impact: "↗ Live on Render · RAG + Gemini 2.0 Flash",
+  title: "CareerFlow — AI Career & Interview Preparation Platform",
+  tags: ["Python",
+    "Flask",
+    "MySQL",
+    "LangGraph",
+    "LangChain",
+    "HuggingFace LLm"],
+  description:"An AI-powered career platform that helps users manage interview records, analyze performance, identify skill gaps, and generate personalized study plans using LangGraph agent workflows and Groq LLM. ",
+    url: "https://github.com/Akshaykompally/CareerFlow",
+  impact: "⚡ AI-Powered Interview Analysis · LangGraph Agents",
 };
 
 const bentoProjects: (Project & { colSpan: number; rowSpan: number; isLarge?: boolean; problemSolution?: { problem: string; solution: string } })[] = [
   {
-    title: "AgriVision — Crop Recommendation System",
-    tags: ["Python", "Flask", "Machine Learning", "HTML/CSS"],
+    title: "Facial Age Estimation Using Deep Learning",
+    tags: ["Python",
+    "Flask",
+    "OpenCV",
+    "NumPy",
+    "Deep Learning",
+    "Matplotlib"],
     description:
-      "An AI-powered agriculture platform that helps farmers make smarter decisions — crop recommendations, soil analysis, and plant disease detection. ML + web dashboards delivering real-time insights for better yield and sustainability.",
-    url: "https://agri-vision-tso2.onrender.com/",
-    impact: "↗ Smart India Hackathon · ML model · Live on Render",
+    "An AI-powered web application that estimates a person's age from facial images using deep learning and computer vision techniques. Features automated face detection, image preprocessing, and real-time age prediction through an intuitive Flask interface.",
+    url: "#",
+    impact: "🧠 Computer Vision · Deep Learning + OpenCV",
     colSpan: 4,
     rowSpan: 2,
     isLarge: true,
     problemSolution: {
       problem:
-        "Small and marginal farmers rely on guesswork and local shopkeepers for crop and fertilizer decisions — no access to personalized advice based on actual soil, weather, or crop history. Poor yields and chemical overuse follow.",
+      "Estimating a person's age from facial images is challenging due to variations in lighting, facial expressions, pose, and image quality, making manual estimation subjective and inconsistent.",
       solution:
-        "Built a mobile-friendly web platform for Smart India Hackathon — crop recommendations via a RandomForest ML model trained on soil NPK + pH values, fertilizer suggestions, real-time weather, plant disease detection, and a Gemini-powered chatbot. Deployed on Render.",
+      "Built an AI-powered facial age estimation system using Python, OpenCV, NumPy, and Flask. Implemented automated face detection, image preprocessing, and deep learning-based age prediction to deliver accurate real-time results through an interactive web application.",
     },
   },
   {
-    title: "College Food Choices — Data Visualization",
-    tags: ["Python", "SQL", "Tableau", "Pandas"],
+    title: "VisionCraft-AI — AI Image Generation Platform",
+    tags: ["Python",
+    "Flask",
+    "MySQL",
+    "ClipDrop API",
+    "REST API",
+    "Prompt Engineering"],
     description:
-      "Analyzed college dietary survey data and built interactive Tableau dashboards exposing food, health, and lifestyle trends.",
-    url: "https://public.tableau.com/app/profile/kaligotla.sri.datta.sai.vithal/viz/project1_17518128996070/HealthandNutritionDashboard",
+    "A full-stack AI image generation platform that transforms text prompts into high-quality images using the ClipDrop Text-to-Image API. Features secure authentication, prompt history, multiple artistic styles, and a responsive user experience.",
+    url: "https://github.com/Akshaykompally/VisionCraft-AI",
     impact: "↗ Live on Tableau Public · Kaggle dataset",
     colSpan: 2,
     rowSpan: 1,
     problemSolution: {
       problem:
-        "College students lack visibility into their own dietary habits — busy schedules, junk food access, and zero data-driven feedback make it impossible to identify unhealthy patterns.",
+    "Creating high-quality AI-generated images often requires complex tools, technical expertise, and lacks a centralized platform for securely managing prompts, generated images, and user history.",
       solution:
-        "4 Tableau dashboards from a 300-record student survey — Lifestyle, Dietary Habits, Health & Nutrition, Parental Influence. Deployed via Flask on Render.",
+    "Built VisionCraft-AI, a full-stack AI image generation platform using Flask, MySQL, and the ClipDrop Text-to-Image API. Implemented secure user authentication, prompt engineering, image history management, and support for multiple artistic styles through a responsive web interface.",
     },
   },
   {
-    title: "My-timee",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "ScheduChat — WhatsApp Message Scheduler",
+    tags: ["Python",
+    "Flask",
+    "PyWhatKit",
+    "HTML5",
+    "CSS3",
+    "PYWhatKit",
+    "Automation"],
     description:
-      "A TV show time tracker that calculates how much time you've spent watching. LocalStorage persistence.",
-    url: "https://github.com/Sridattasai18/My-timee",
-    impact: "↗ Runs in browser · No dependencies",
+    "A Flask-based web application that enables users to securely schedule WhatsApp messages for automatic delivery through WhatsApp Web. Features a user-friendly dashboard, authentication, and real-time message scheduling using PyWhatKit.",
+    url: "https://github.com/Akshaykompally/ScheduChat",
+    impact: "💬 Web Automation · Flask + PyWhatKit",
     colSpan: 2,
     rowSpan: 1,
   },
   {
-    title: "Builder-Logs",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "CineAgent — AI Movie Recommendation System",
+    tags: ["Python",
+    "LangGraph",
+    "LangChain",
+    "Mistral AI",
+    "Streamlit",
+    "OMDb API"],
     description:
-      "A private developer journal that lives in your browser. Write in Markdown, save HTML prototypes, tag your work — no accounts, no servers.",
-    url: "https://sridattasai18.github.io/Builder-Logs/",
-    impact: "↗ Live on GitHub Pages · Zero dependencies",
+    "An AI-powered movie recommendation system that analyzes user-selected movies, recommends similar titles, explains similarities, checks OTT platform availability, and suggests the top five movies using a parallel LangGraph workflow powered by Mistral AI.",
+    url: "https://github.com/Akshaykompally/CineAgent",
+    impact: "🎥 Smart Recommendations · LangChain + Streamlit",
     colSpan: 3,
     rowSpan: 1,
   },
   {
-    title: "StudyFlow",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "HeadlineForge — AI News Summarizer",
+    tags: ["Python",
+    "LangChain",
+    "Mistral AI",
+    "Tavily Search",
+    "Streamlit",
+    "LLMs"],
     description:
-      "A NotebookLM-style research assistant. Upload PDFs, URLs, YouTube videos and chat with your material using Gemini + RAG.",
-    url: "https://github.com/Sridattasai18/StudyFlow",
-    impact: "↗ In progress · Inspired by NotebookLM",
+    "An AI-powered news summarization application that retrieves the latest news articles based on user queries and generates concise, easy-to-read summaries using Mistral AI, LangChain, and Tavily Search through an interactive Streamlit interface.",
+    url:"https://github.com/Akshaykompally/HeadlineForge",
+    impact: "📰 AI-Powered News Insights · Tavily + Mistral AI",
     colSpan: 2,
     rowSpan: 1,
     problemSolution: {
       problem:
-        "No simple tool existed for students to query their own study material before NotebookLM went public.",
+      "Keeping up with breaking news requires reading multiple lengthy articles from different sources, making it difficult to quickly understand current events and extract the most relevant information.",
       solution:
-        "Full-stack RAG app with Next.js + FastAPI, ChromaDB vector search, and Gemini. Built before NotebookLM went mainstream.",
+      "Developed HeadlineForge, an AI-powered news summarization platform using LangChain, Mistral AI, Tavily Search, and Streamlit. The application retrieves real-time news articles, processes them with an LLM, and generates concise, bullet-point summaries while also displaying the original search results for transparency.",
     },
   },
 ];
@@ -96,10 +126,10 @@ const bentoProjects: (Project & { colSpan: number; rowSpan: number; isLarge?: bo
 /* ─── Animated Stats Ticker ─────────────────────────────── */
 function StatsTicker() {
   const stats = [
-    "~90% Accuracy",
-    "22 Crops Supported",
-    "Real-time Weather",
-    "Smart India Hackathon"
+    "~86% Accuracy",
+    "Real-time Prediction",
+    "Face Detection",
+    "Classify the AGe Group"
   ];
   
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -222,10 +252,10 @@ function BentoCard({ project, index }: { project: typeof bentoProjects[0]; index
           }}
         >
           <span style={{ fontFamily: "var(--font-mono)", fontSize: 20, fontWeight: 700, color: "#1A1A1A", lineHeight: 1.2 }}>
-            ML + AI
+           DL + Image Processing Techniques 
           </span>
           <span style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: "#1A1A1A", opacity: 0.7, marginTop: 2 }}>
-            ~90% Accuracy
+            ~86% Accuracy
           </span>
         </div>
       )}
@@ -320,10 +350,10 @@ export function Projects() {
             style={{ background: "#00B4D8", borderLeft: "0", borderBottom: "3px solid #1A1A1A" }}
           >
             <span style={{ fontFamily: "var(--font-mono)", fontSize: 28, fontWeight: 700, color: "#1A1A1A" }}>
-              RAG + AI
+              LangGraph + LLM
             </span>
             <span style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: "#1A1A1A" }} className="opacity-70 mt-1">
-              Gemini 2.0 Flash
+              HuggingFace - DeepSeek-V4-Pro
             </span>
           </div>
 
@@ -366,11 +396,12 @@ export function Projects() {
               <div style={{ marginTop: 10, paddingTop: 10, borderTop: "1px solid rgba(26,26,26,0.12)", fontFamily: "var(--font-mono)", fontSize: 11, lineHeight: 1.6 }} className="mb-2">
                 <p style={{ marginBottom: 6 }}>
                   <span style={{ fontWeight: 700, opacity: 0.7, letterSpacing: "0.08em" }}>PROBLEM — </span>
-                  <span style={{ opacity: 0.85, fontWeight: 400 }}>Understanding an unfamiliar codebase or GitHub repo means constantly switching between the code and an LLM — copy, paste, ask, repeat. It breaks focus and slows everything down.</span>
+                  <span style={{ opacity: 0.85, fontWeight: 400 }}>Job seekers often struggle to track interview progress, identify skill gaps, and prepare effectively due to scattered notes, lack of personalized feedback, and no structured roadmap for interview preparation.</span>
                 </p>
                 <p>
                   <span style={{ fontWeight: 700, opacity: 0.7, letterSpacing: "0.08em" }}>SOLUTION — </span>
-                  <span style={{ opacity: 0.85, fontWeight: 400 }}>Built RepoLogic to fix my own workflow — chat with any public repo directly, hover over code or docs for instant explanations. A RAG pipeline ingests the repo files and Gemini 2.0 Flash answers queries with full file-level context. No more tab switching.</span>
+                  <span style={{ opacity: 0.85, fontWeight: 400 }}>Developed CareerFlow, an AI-powered career and interview preparation platform using Flask, MySQL, LangGraph, and HuggingFace LLM. Built an AI agent workflow to analyze interview performance, identify strengths and weaknesses, generate personalized study plans and career recommendations, while providing secure interview management through CRUD operations and an interactive dashboard.
+</span>
                 </p>
               </div>
 
@@ -419,7 +450,7 @@ export function Projects() {
               </h3>
             </div>
             <motion.a
-              href="https://github.com/Sridattasai18"
+              href="https://github.com/Akshaykompally"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontFamily: "var(--font-mono)", boxShadow: "3px 3px 0 #1A1A1A" }}

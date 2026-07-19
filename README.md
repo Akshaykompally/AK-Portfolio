@@ -1,10 +1,10 @@
-# Neo-folio 🚀
+# AK Portfolio 🚀
 
 A modern, brutalist-style portfolio website built with React, TypeScript, and Vite. Features smooth animations, interactive components, and a bold design aesthetic.
 
 ## 🌐 Live Demo
 
-**[View Live Portfolio](https://sridattasai18.github.io/Neo-folio/)**
+**[View Live Portfolio]**
 
 ## ✨ Features
 
@@ -29,7 +29,7 @@ A modern, brutalist-style portfolio website built with React, TypeScript, and Vi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Sridattasai18/Neo-folio.git
+git clone 
 cd Neo-folio
 ```
 
@@ -114,7 +114,7 @@ export default defineConfig({
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Sridattasai18/Neo-folio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page]
 
 ## 📄 License
 
@@ -124,8 +124,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Kaligotla Sri Datta Sai Vithal**
 
-- GitHub: [@Sridattasai18](https://github.com/Sridattasai18)
-- Portfolio: [https://sridattasai18.github.io/Neo-folio/](https://sridattasai18.github.io/Neo-folio/)
+- GitHub:
+- Portfolio: 
 
 ## 🙏 Acknowledgments
 

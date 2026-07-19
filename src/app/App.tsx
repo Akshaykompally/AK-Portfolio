@@ -37,7 +37,6 @@ export default function App() {
         <Hero />
         <About />
         <GitHubContributions />
-        <Experience />
         <Education />
         <Projects />
         <Skills />

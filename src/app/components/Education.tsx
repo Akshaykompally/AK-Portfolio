@@ -40,17 +40,17 @@ export function Education() {
             {/* Degree Info */}
             <div className="mb-6">
               <h3 style={{ fontFamily: 'var(--font-display)' }} className="font-black text-2xl sm:text-3xl mb-3">
-                B.Tech in Computer Science (AI & Data Science)
+                B.Tech in Computer Science (Cyber Security)
               </h3>
               <p style={{ fontFamily: 'var(--font-mono)' }} className="text-base sm:text-lg mb-2">
-                Vishnu Institute of Technology, Bhimavaram
+                Guru Nanak Institute of Technology, Hyderabad
               </p>
               <div className="flex flex-wrap gap-3">
                 <span 
                   style={{ fontFamily: 'var(--font-mono)' }}
                   className="inline-block bg-[#F0E040] border-[2px] border-[#000000] px-4 py-1 text-xs uppercase tracking-wider"
                 >
-                  2023 – 2027
+                  2022 – 2026
                 </span>
                 <span 
                   style={{ fontFamily: 'var(--font-mono)' }}
@@ -60,49 +60,10 @@ export function Education() {
                 </span>
               </div>
             </div>
-
-            {/* Two Column Layout */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 pt-6 border-t-[2px] border-[#000000]">
-              {/* Certifications */}
-              <div>
-                <h4 style={{ fontFamily: 'var(--font-mono)' }} className="font-bold text-sm uppercase tracking-wider mb-3 opacity-70">
-                  Certifications
-                </h4>
-                <ul style={{ fontFamily: 'var(--font-mono)' }} className="space-y-2 text-sm">
-                  <li className="flex gap-2">
-                    <span className="text-[#00B4D8] font-black">·</span>
-                    <span>Programming in Java — NPTEL (IIT Kharagpur)</span>
-                  </li>
-                  <li className="flex gap-2">
-                    <span className="text-[#00B4D8] font-black">·</span>
-                    <span>Pandas & NumPy — Kaggle</span>
-                  </li>
-                  <li className="flex gap-2">
-                    <span className="text-[#00B4D8] font-black">·</span>
-                    <span>Data Science Virtual Internship — Altair</span>
-                  </li>
-                  <li className="flex gap-2">
-                    <span className="text-[#00B4D8] font-black">·</span>
-                    <span>Web Full Stack Development — EduSkills</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Activities & Hackathons */}
-              <div>
-                <h4 style={{ fontFamily: 'var(--font-mono)' }} className="font-bold text-sm uppercase tracking-wider mb-3 opacity-70">
-                  Activities & Hackathons
-                </h4>
-                <ul style={{ fontFamily: 'var(--font-mono)' }} className="space-y-2 text-sm">
-                  <li className="flex gap-2">
-                    <span className="text-[#00B4D8] font-black">·</span>
-                    <span>Smart India Hackathon 2024 (Internal Round) — Built AgriVision, an AI-powered crop recommendation system using machine learning.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </motion.div>
         </motion.div>
+
+        
       </div>
     </section>
   );

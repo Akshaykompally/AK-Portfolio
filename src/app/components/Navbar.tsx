@@ -36,7 +36,7 @@ export function Navbar() {
             style={{ fontFamily: 'var(--font-mono)', position: 'relative' }}
             className="nav-link font-bold text-xl group"
           >
-            datta.dev
+            AK
             <span
               className="absolute bottom-0 left-0 h-[2.5px] bg-[#00B4D8] w-0 group-hover:w-full transition-all duration-[220ms] ease-out"
             />

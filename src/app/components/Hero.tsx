@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 export function Hero() {
-  const headline = "Hi, I'm Datta";
+  const headline = "Hi, I'm Akshay Kompally";
   
   return (
     <section className="min-h-[85vh] pt-32 pb-[60px] px-4 sm:px-6 lg:px-8 relative">
@@ -193,7 +193,7 @@ export function Hero() {
               </motion.button>
 
               <motion.a
-                href="https://drive.google.com/file/d/1-Nr0v5_HNWzETlyteKkJRZZlAKdLZgkM/view?usp=sharing"
+                href="https://drive.google.com/file/d/1G_WUw92V-CmFbUscQzXsrL7RCYTS6HIZ/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ 
@@ -223,9 +223,9 @@ export function Hero() {
               {[
                 { text: "#FullStack",   top: "8%",  left: "55%", delay: 0 },
                 { text: "#GenAI",       top: "25%", left: "10%", delay: 0.15 },
-                { text: "#AgenticAI",   top: "45%", left: "60%", delay: 0.3 },
-                { text: "#OpenSource",  top: "65%", left: "15%", delay: 0.45 },
-                { text: "#DSA",         top: "80%", left: "50%", delay: 0.6 },
+                { text: "#LLMs",   top: "45%", left: "60%", delay: 0.3 },
+                { text: "#TechEnthusiast",  top: "65%", left: "15%", delay: 0.45 },
+                { text: "#CodeEveryday",         top: "80%", left: "50%", delay: 0.6 },
               ].map((tag, index) => (
                 <motion.div
                   key={index}

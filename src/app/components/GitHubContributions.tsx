@@ -68,7 +68,7 @@ export function GitHubContributions() {
       try {
         console.log("Fetching GitHub contributions...");
         
-        const url = "https://github-contributions-api.jogruber.de/v4/Sridattasai18?y=last";
+        const url = "https://github-contributions-api.jogruber.de/v4/Akshaykompally?y=last";
         const response = await fetch(url, {
           method: 'GET',
           headers: {
@@ -99,7 +99,7 @@ export function GitHubContributions() {
         // Try fallback URL
         try {
           console.log("Trying fallback URL...");
-          const fallbackUrl = "https://github-contributions-api.jogruber.de/v4/Sridattasai18";
+          const fallbackUrl = "https://github-contributions-api.jogruber.de/v4/Akshaykompally";
           const fallbackResponse = await fetch(fallbackUrl, {
             method: 'GET',
             headers: {
@@ -342,7 +342,7 @@ export function GitHubContributions() {
           transition={{ delay: 0.3 }}
         >
           <motion.a
-            href="https://github.com/Sridattasai18"
+            href="https://github.com/Akshaykompally"
             target="_blank"
             rel="noopener noreferrer"
             style={{ 

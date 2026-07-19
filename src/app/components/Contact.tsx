@@ -76,7 +76,7 @@ export function Contact() {
 
           {/* Email Button */}
           <motion.a
-            href="mailto:kaligotlasridattasai18@gmail.com"
+            href="mailto:akshaykompally@gmail.com"
             style={{ 
               boxShadow: "5px 5px 0px #00B4D8",
               fontFamily: 'var(--font-mono)'
@@ -93,7 +93,7 @@ export function Contact() {
             }}
           >
             <Mail className="inline w-5 h-5 mr-2" />
-            kaligotlasridattasai18@gmail.com
+            akshaykompally@gmail.com
           </motion.a>
 
           {/* Social Links */}
@@ -110,7 +110,7 @@ export function Contact() {
             >
               <span className="tooltip-label">See my code!</span>
               <a
-                href="https://github.com/Sridattasai18"
+                href="https://github.com/Akshaykompally"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontFamily: 'var(--font-mono)' }}
@@ -127,7 +127,7 @@ export function Contact() {
             >
               <span className="tooltip-label">Let's connect!</span>
               <a
-                href="https://www.linkedin.com/in/kaligotla-sri-datta-sai-vithal-01bb2a321"
+                href="https://www.linkedin.com/in/kompallyakshay/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontFamily: 'var(--font-mono)' }}
@@ -144,7 +144,7 @@ export function Contact() {
             >
               <span className="tooltip-label">Say hello!</span>
               <a
-                href="mailto:kaligotlasridattasai18@gmail.com"
+                href="mailto:akshaykompally@gmail.com"
                 style={{ fontFamily: 'var(--font-mono)' }}
                 className="flex items-center gap-2 border-[3px] border-[#F5F0E8] px-6 py-3 uppercase text-sm hover:bg-[#00B4D8] hover:text-[#1A1A1A] hover:border-[#00B4D8] transition-colors"
               >
@@ -167,7 +167,7 @@ export function Contact() {
               <br />
               · Built by a human ·{' '}
               <a 
-                href="https://github.com/Sridattasai18/Neo-folio" 
+                href="https://github.com/Akshaykompally" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{ color: '#00B4D8', textDecoration: 'none' }}
