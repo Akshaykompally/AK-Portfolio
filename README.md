@@ -5,7 +5,7 @@ A modern, brutalist-style portfolio website built with React, TypeScript, and Vi
 
 ## 🌐 Live Demo
 
-**[View Live Portfolio]** https://github.com/Akshaykompally/AK-Portfolio.git
+**[View Live Portfolio]** [ https://akshaykompally.netlify.app/ ]
 
 ## ✨ Features
 
@@ -117,16 +117,13 @@ export default defineConfig({
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page]
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Kaligotla Sri Datta Sai Vithal**
+**Akshay Kompally**
 
-- GitHub:
-- Portfolio: 
+- GitHub: https://github.com/Akshaykompally/AK-Portfolio.git
+- Portfolio: https://akshaykompally.netlify.app/
 
 ## 🙏 Acknowledgments
 
