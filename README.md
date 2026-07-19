@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AK Portfolio 🚀
 
 A modern, brutalist-style portfolio website built with React, TypeScript, and Vite. Features smooth animations, interactive components, and a bold design aesthetic.
@@ -137,3 +138,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ⭐ Star this repo if you find it helpful!
+=======
+# AK-Portfolio
+>>>>>>> 4bf5a50b3fc24cb3c1212cfc341f39607f7d86b8
