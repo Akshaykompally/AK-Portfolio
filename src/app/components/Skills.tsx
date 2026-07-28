@@ -8,7 +8,7 @@ const allSkills = [
   "Flask", "REST APIs", "Langgraph","Agentic AI",
   "Pandas", "NumPy", "SQL", "MySQL", "Chart.js", "Matplotlib",
   "Gemini API", "RAG", "LangChain", "OpenAI", "Prompt Engineering",
-  "Git", "GitHub", "VS Code", "Netlify", "Postman","Streamlit"
+  "Git", "GitHub", "VS Code", "Netlify", "Postman","Streamlit","Docker"
 ];
 
 // Distribute evenly across 3 rows
@@ -30,6 +30,7 @@ const tools = [
   { name: "Git",      abbr: "GT", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "GitHub",      abbr: "GH", img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   { name: "Postman",  abbr: "PM", img: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"},
+  { name: "Docker",  abbr: "DK", img: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"},
 ];
 
 function ToolTile({ tool, index }: { tool: typeof tools[0]; index: number }) {
