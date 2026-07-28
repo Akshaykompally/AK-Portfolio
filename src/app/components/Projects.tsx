@@ -20,7 +20,7 @@ const featured: Project = {
     "LangGraph",
     "LangChain",
     "HuggingFace LLm"],
-  description:"An AI-powered career platform that helps users manage interview records, analyze performance, identify skill gaps, and generate personalized study plans using LangGraph agent workflows and Groq LLM. ",
+  description:"An AI-powered career platform that helps users manage interview records, analyze performance, identify skill gaps, and generate personalized study plans using LangGraph agent workflows and HuggingFace LLM. ",
     url: "https://github.com/Akshaykompally/CareerFlow",
   impact: "⚡ AI-Powered Interview Analysis · LangGraph Agents",
 };
@@ -353,7 +353,7 @@ export function Projects() {
               LangGraph + LLM
             </span>
             <span style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: "#1A1A1A" }} className="opacity-70 mt-1">
-              HuggingFace - DeepSeek-V4-Pro
+              HuggingFace - meta-llama/Llama-3.1-8B-Instruct
             </span>
           </div>
 
